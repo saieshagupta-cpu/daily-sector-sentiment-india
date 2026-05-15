@@ -1,0 +1,211 @@
+# India NEW NAMES candidate pool — NSE mid + small caps in each sector.
+# Tickers are bare NSE symbols (no .NS suffix).
+#
+# Cross-listings: a ticker can live in multiple sectors when its thesis spans
+# them — e.g. Adani Green is both Energy and (clean-tech) infra.
+
+energy:
+  # --- AI Power / IPPs / utilities ---
+  - ADANIGREEN    # Adani Green Energy — renewables giant
+  - ADANIENSOL    # Adani Energy Solutions — transmission
+  - JSWENERGY     # JSW Energy
+  - TORNTPOWER    # Torrent Power
+  - NHPC          # NHPC — hydro
+  - SJVN          # SJVN — hydro
+  - JSWHL         # JSW Holdings
+  - IEX           # Indian Energy Exchange
+  - PFC           # Power Finance Corp
+  - RECLTD        # REC Limited
+  # --- Renewables / solar / wind ---
+  - SUZLON        # Suzlon Energy — wind
+  - INOXWIND      # Inox Wind
+  - WAAREE        # Waaree Renewable
+  - KPIGREEN      # KPI Green Energy
+  - IREDA         # Indian Renewable Energy Development Agency
+  - ACMESOLAR     # ACME Solar Holdings
+  - PREMIERENE    # Premier Energies
+  # --- Oil & gas mid-caps + distribution ---
+  - OIL           # Oil India
+  - PETRONET      # Petronet LNG
+  - IGL           # Indraprastha Gas
+  - GUJGASLTD     # Gujarat Gas
+  - MGL           # Mahanagar Gas
+  - GSPL          # Gujarat State Petronet
+  - CASTROLIND    # Castrol India
+  - HINDPETRO     # HPCL
+  - MRPL          # Mangalore Refinery
+  - CHENNPETRO    # Chennai Petroleum
+  - AEGISLOG      # Aegis Logistics (LPG)
+  # --- EV / clean mobility ---
+  - OLECTRA       # Olectra Greentech — electric buses
+  - KEC           # KEC International — power infra
+  - KALPATPOWR    # Kalpataru Projects — power infra
+
+healthcare:
+  - LAURUSLABS    # Laurus Labs
+  - GLENMARK      # Glenmark Pharmaceuticals
+  - MANKIND       # Mankind Pharma
+  - BIOCON        # Biocon
+  - ABBOTINDIA    # Abbott India
+  - IPCALAB       # IPCA Laboratories
+  - AJANTPHARM    # Ajanta Pharma
+  - GRANULES      # Granules India
+  - CAPLIPOINT    # Caplin Point Laboratories
+  - ERIS          # Eris Lifesciences
+  - JBCHEPHARM    # JB Chemicals
+  - SUVENPHAR     # Suven Pharmaceuticals
+  - NATCOPHARM    # Natco Pharma
+  - GLAND         # Gland Pharma
+  - GLAXO         # GlaxoSmithKline Pharma
+  - PFIZER        # Pfizer India
+  - SANOFI        # Sanofi India
+  - METROPOLIS    # Metropolis Healthcare — diagnostics
+  - DRLAL         # Dr. Lal PathLabs — diagnostics
+  - VIJAYA        # Vijaya Diagnostic Centre
+  - NH            # Narayana Hrudayalaya — hospitals
+  - KIMS          # Krishna Institute of Medical Sciences
+  - ASTERDM       # Aster DM Healthcare
+  - RAINBOW       # Rainbow Children's Medicare
+  - GLOBALHLT     # Global Health (Medanta)
+  - MEDPLUS       # Medplus Health Services
+  - FORTIS        # Fortis Healthcare
+  - POLYMED       # Poly Medicure
+  - SYNGENE       # Syngene International — contract research
+  - DIVISLAB      # Divi's Labs (also blue chip; in pool too)
+
+minerals:
+  - HINDCOPPER    # Hindustan Copper
+  - MOIL          # MOIL Limited
+  - APLAPOLLO     # APL Apollo Tubes
+  - RATNAMANI     # Ratnamani Metals
+  - WELSPUNCORP   # Welspun Corp
+  - JTLIND        # JTL Industries
+  - SHYAMMETL     # Shyam Metalics
+  - GMDCLTD       # Gujarat Mineral Development
+  - ORIENTCEM     # Orient Cement
+  - ULTRACEMCO    # UltraTech Cement
+  - SHREECEM      # Shree Cement
+  - AMBUJACEM     # Ambuja Cements
+  - ACC           # ACC
+  - DALBHARAT     # Dalmia Bharat (cement)
+  - JKCEMENT      # JK Cement
+  - RAMCOCEM      # Ramco Cements
+  # --- Chemicals & specialty materials ---
+  - PIIND         # PI Industries — agrochemicals
+  - DEEPAKNTR     # Deepak Nitrite
+  - SRF           # SRF Limited — specialty chemicals
+  - NAVINFLUOR    # Navin Fluorine
+  - AARTIIND      # Aarti Industries
+  - GUJFLUORO     # Gujarat Fluorochemicals
+  - TATACHEM      # Tata Chemicals
+  - LINDEINDIA    # Linde India — industrial gases
+  - COROMANDEL    # Coromandel International — fertilizers
+  - CHAMBLFERT    # Chambal Fertilizers
+  - GNFC          # Gujarat Narmada Valley Fertilizers
+  - FACT          # Fertilisers and Chemicals Travancore
+  - HEG           # HEG — graphite electrodes
+  - GRAPHITE      # Graphite India
+
+tech:
+  - LTTS          # L&T Technology Services — engineering R&D
+  - KPITTECH      # KPIT Technologies
+  - CYIENT        # Cyient
+  - ZENSAR        # Zensar Technologies
+  - HAPPSTMNDS    # Happiest Minds Technologies
+  - INTELLECT     # Intellect Design Arena
+  - TANLA         # Tanla Platforms
+  - ECLERX        # eClerx Services
+  - DATAPATTNS    # Data Patterns India
+  - TATATECH      # Tata Technologies
+  - SONATSOFTW    # Sonata Software
+  - BIRLASOFT     # Birlasoft
+  # --- New-age internet / fintech ---
+  - PAYTM         # One 97 Communications (Paytm)
+  - ZOMATO        # Zomato (Eternal)
+  - POLICYBZR     # PB Fintech (PolicyBazaar)
+  - NAUKRI        # Info Edge (Naukri / Zomato parent)
+  - NYKAA         # FSN E-Commerce (Nykaa)
+  - MAPMYINDIA    # CE Info Systems (MapmyIndia)
+  - RATEGAIN      # RateGain Travel Technologies
+  - ANGELONE      # Angel One — broker
+  - 5PAISA        # 5paisa Capital
+  - IIFLSEC       # IIFL Securities
+  - BSE           # BSE Limited (exchange)
+  - MCX           # Multi Commodity Exchange
+  - CDSL          # Central Depository Services
+  # --- Data center / AI infra / power for AI ---
+  - NETWEB        # Netweb Technologies — AI compute
+  - DIXON         # Dixon Technologies — electronics manufacturing
+  - KAYNES        # Kaynes Technology — electronics
+  - AMBER         # Amber Enterprises — electronics
+  - SYRMA         # Syrma SGS Technology
+  - HBLPOWER      # HBL Power Systems — power for data centers
+
+real_estate:
+  - KOLTEPATIL    # Kolte Patil Developers
+  - PURVA         # Puravankara
+  - ANANTRAJ      # Anant Raj
+  - ARVSMART      # Arvind SmartSpaces
+  # --- Infra construction & adjacent ---
+  - PNCINFRA      # PNC Infratech
+  - HGINFRA       # HG Infra Engineering
+  - KNRCON        # KNR Constructions
+  - JKIL          # J. Kumar Infraprojects
+  - NCC           # NCC Limited
+  - GMRINFRA      # GMR Airports Infrastructure
+  - GR_INFRA      # G R Infraprojects
+  - IRB           # IRB Infrastructure
+  - ASHOKA        # Ashoka Buildcon
+  - DBL           # Dilip Buildcon
+  - KEC           # KEC International (also energy)
+  - KALPATPOWR    # Kalpataru Projects (also energy)
+  # --- REITs ---
+  - EMBASSY       # Embassy Office Parks REIT
+  - BIRET         # Brookfield India REIT
+  - MINDSPACE     # Mindspace Business Parks REIT
+  - NXSTREIT      # Nexus Select Trust
+  # --- Hotels & hospitality ---
+  - INDHOTEL      # Indian Hotels Company
+  - LEMONTREE     # Lemon Tree Hotels
+  - CHALET        # Chalet Hotels
+  - EIHOTEL       # EIH (Oberoi Hotels)
+  # --- Adjacent rail / govt infra ---
+  - RAILTEL       # RailTel Corporation
+  - RVNL          # Rail Vikas Nigam
+  - IRCON         # Ircon International
+  - IRFC          # Indian Railway Finance Corp
+  - HUDCO         # HUDCO
+
+finance:
+  - CHOLAFIN      # Cholamandalam Investment
+  - MUTHOOTFIN    # Muthoot Finance
+  - MANAPPURAM    # Manappuram Finance
+  - LICHSGFIN     # LIC Housing Finance
+  - PFC           # Power Finance Corp (also energy)
+  - RECLTD        # REC Limited (also energy)
+  - IRFC          # Indian Railway Finance Corp (also real_estate)
+  - SBICARD       # SBI Cards
+  - ICICIGI       # ICICI Lombard General Insurance
+  - ICICIPRULI    # ICICI Prudential Life Insurance
+  - GICRE         # General Insurance Corp
+  - NIACL         # New India Assurance
+  - NIPPONLIFE    # Nippon Life India Asset Management
+  - 360ONE        # 360 ONE WAM
+  - ABSLAMC       # Aditya Birla Sun Life AMC
+  - UTIAMC        # UTI Asset Management
+  - BANDHANBNK    # Bandhan Bank
+  - FEDERALBNK    # Federal Bank
+  - IDFCFIRSTB    # IDFC First Bank
+  - INDUSINDBK    # IndusInd Bank
+  - AUBANK        # AU Small Finance Bank
+  - YESBANK       # Yes Bank
+  - RBLBANK       # RBL Bank
+  - KARURVYSYA    # Karur Vysya Bank
+  - CUB           # City Union Bank
+  - BSE           # BSE Limited (also tech)
+  - MCX           # Multi Commodity Exchange (also tech)
+  - CDSL          # Central Depository Services (also tech)
+  - POLICYBZR     # PB Fintech (also tech)
+  - ANGELONE      # Angel One (also tech)
+  - BAJAJHLDNG    # Bajaj Holdings
+  - LICI          # Life Insurance Corporation

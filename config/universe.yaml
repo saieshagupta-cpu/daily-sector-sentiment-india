@@ -1,0 +1,75 @@
+# India fixed-sleeve universe — 6 sectors × 10 NSE blue chips = 60 names.
+# Tickers are bare NSE symbols (no .NS suffix); the code appends .NS for
+# yfinance / Finnhub when needed.
+
+energy:
+  - {ticker: RELIANCE,   name: Reliance Industries}
+  - {ticker: ONGC,       name: Oil and Natural Gas Corporation}
+  - {ticker: IOC,        name: Indian Oil Corporation}
+  - {ticker: BPCL,       name: Bharat Petroleum}
+  - {ticker: GAIL,       name: GAIL India}
+  - {ticker: NTPC,       name: NTPC}
+  - {ticker: POWERGRID,  name: Power Grid Corporation}
+  - {ticker: COALINDIA,  name: Coal India}
+  - {ticker: TATAPOWER,  name: Tata Power}
+  - {ticker: ADANIPOWER, name: Adani Power}
+
+healthcare:
+  - {ticker: SUNPHARMA,   name: Sun Pharmaceutical}
+  - {ticker: DRREDDY,     name: Dr. Reddy's Laboratories}
+  - {ticker: CIPLA,       name: Cipla}
+  - {ticker: DIVISLAB,    name: Divi's Laboratories}
+  - {ticker: APOLLOHOSP,  name: Apollo Hospitals}
+  - {ticker: LUPIN,       name: Lupin}
+  - {ticker: ZYDUSLIFE,   name: Zydus Lifesciences}
+  - {ticker: TORNTPHARM,  name: Torrent Pharmaceuticals}
+  - {ticker: ALKEM,       name: Alkem Laboratories}
+  - {ticker: MAXHEALTH,   name: Max Healthcare Institute}
+
+minerals:
+  - {ticker: TATASTEEL,   name: Tata Steel}
+  - {ticker: JSWSTEEL,    name: JSW Steel}
+  - {ticker: HINDALCO,    name: Hindalco Industries}
+  - {ticker: VEDL,        name: Vedanta}
+  - {ticker: NMDC,        name: NMDC}
+  - {ticker: SAIL,        name: Steel Authority of India}
+  - {ticker: JINDALSTEL,  name: Jindal Steel and Power}
+  - {ticker: HINDZINC,    name: Hindustan Zinc}
+  - {ticker: NATIONALUM,  name: National Aluminium}
+  - {ticker: JSL,         name: Jindal Stainless}
+
+tech:
+  - {ticker: TCS,         name: Tata Consultancy Services}
+  - {ticker: INFY,        name: Infosys}
+  - {ticker: HCLTECH,     name: HCL Technologies}
+  - {ticker: WIPRO,       name: Wipro}
+  - {ticker: LTIM,        name: LTIMindtree}
+  - {ticker: TECHM,       name: Tech Mahindra}
+  - {ticker: PERSISTENT,  name: Persistent Systems}
+  - {ticker: COFORGE,     name: Coforge}
+  - {ticker: MPHASIS,     name: Mphasis}
+  - {ticker: TATAELXSI,   name: Tata Elxsi}
+
+real_estate:
+  - {ticker: DLF,         name: DLF}
+  - {ticker: GODREJPROP,  name: Godrej Properties}
+  - {ticker: OBEROIRLTY,  name: Oberoi Realty}
+  - {ticker: PRESTIGE,    name: Prestige Estates Projects}
+  - {ticker: LODHA,       name: Macrotech Developers (Lodha)}
+  - {ticker: PHOENIXLTD,  name: Phoenix Mills}
+  - {ticker: BRIGADE,     name: Brigade Enterprises}
+  - {ticker: SOBHA,       name: Sobha}
+  - {ticker: SUNTECK,     name: Sunteck Realty}
+  - {ticker: MAHLIFE,     name: Mahindra Lifespace Developers}
+
+finance:
+  - {ticker: HDFCBANK,    name: HDFC Bank}
+  - {ticker: ICICIBANK,   name: ICICI Bank}
+  - {ticker: SBIN,        name: State Bank of India}
+  - {ticker: KOTAKBANK,   name: Kotak Mahindra Bank}
+  - {ticker: AXISBANK,    name: Axis Bank}
+  - {ticker: BAJFINANCE,  name: Bajaj Finance}
+  - {ticker: BAJAJFINSV,  name: Bajaj Finserv}
+  - {ticker: HDFCLIFE,    name: HDFC Life Insurance}
+  - {ticker: SBILIFE,     name: SBI Life Insurance}
+  - {ticker: HDFCAMC,     name: HDFC Asset Management}
