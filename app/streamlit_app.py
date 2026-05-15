@@ -28,7 +28,8 @@ from extract.resolver import get_universe as get_us_universe
 from store.db import DB_PATH
 
 
-SECTOR_ORDER = ["energy", "healthcare", "minerals", "tech", "real_estate", "finance"]
+SECTOR_ORDER = ["energy", "healthcare", "minerals", "tech",
+                "real_estate", "finance", "defense"]
 SECTOR_LABELS = {
     "energy":      "Energy",
     "healthcare":  "Healthcare",
@@ -36,6 +37,7 @@ SECTOR_LABELS = {
     "tech":        "Tech",
     "real_estate": "Real Estate",
     "finance":     "Finance",
+    "defense":     "Defense",
 }
 SECTOR_BLURBS = {
     "energy":      "Oil & gas, power generation, renewables, city gas",
@@ -44,6 +46,7 @@ SECTOR_BLURBS = {
     "tech":        "IT services, ER&D, new-age internet, fintech",
     "real_estate": "Developers, REITs, infra construction, hotels",
     "finance":     "PSU & private banks, NBFCs, insurance, AMCs",
+    "defense":     "PSU defence, aerospace, shipyards, drones, electronics",
 }
 
 

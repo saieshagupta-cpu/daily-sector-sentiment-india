@@ -45,6 +45,11 @@ SECTOR_QUERIES: dict[str, str] = {
         '(India AND (bank OR RBI OR NBFC OR insurance OR mutual fund OR HDFC '
         'OR ICICI OR SBI OR Axis OR Kotak OR "interest rate")) sourcecountry:IN'
     ),
+    "defense": (
+        '(India AND (defence OR defense OR HAL OR Bharat Electronics '
+        'OR Mazagon Dock OR Cochin Shipyard OR DRDO OR Tejas OR "missile order" '
+        'OR drone OR shipyard OR submarine OR fighter)) sourcecountry:IN'
+    ),
 }
 
 

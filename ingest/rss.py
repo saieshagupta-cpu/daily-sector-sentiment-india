@@ -28,6 +28,18 @@ FEEDS: list[tuple[str, str, str | None]] = [
     ("ET Industry Banking",       "https://economictimes.indiatimes.com/industry/banking/finance/banking/rssfeeds/13358305.cms", "finance"),
     ("ET Industry Energy",        "https://economictimes.indiatimes.com/industry/energy/power/rssfeeds/13357361.cms", "energy"),
     ("ET Industry Healthcare",    "https://economictimes.indiatimes.com/industry/healthcare/biotech/rssfeeds/13358361.cms", "healthcare"),
+
+    # Broader Indian financial press
+    ("Business Today Markets",    "https://www.businesstoday.in/rssfeeds/?id=51", None),
+    ("Business Today Top News",   "https://www.businesstoday.in/rssfeeds/?id=home", None),
+    ("Financial Express Markets", "https://www.financialexpress.com/market/feed/", None),
+    ("Financial Express Industry","https://www.financialexpress.com/industry/feed/", None),
+    ("Hindu BusinessLine",        "https://www.thehindubusinessline.com/markets/feeder/default.rss", None),
+    ("Hindu BL Companies",        "https://www.thehindubusinessline.com/companies/feeder/default.rss", None),
+    ("CNBC-TV18 Markets",         "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml", None),
+    ("CNBC-TV18 Business",        "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/business.xml", None),
+    ("Mint Companies",            "https://www.livemint.com/rss/companies", None),
+    ("Mint Money",                "https://www.livemint.com/rss/money", None),
 ]
 
 

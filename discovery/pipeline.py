@@ -29,6 +29,7 @@ from discovery.strength import StrengthResult, compute_many
 from extract.resolver import extract_tickers, get_universe
 from ingest import finnhub as fh
 from ingest import gdelt as gd
+from ingest import gnews as gn
 from ingest import marketaux as mx
 from ingest import reddit_json as rj
 from ingest import rss as rss
@@ -55,6 +56,30 @@ class TickerScore:
 
 
 SOURCE_WEIGHTS: dict[str, float] = FILTERS["source_weights"]
+
+
+def _build_search_queries() -> list[tuple[str, str]]:
+    """Build (ticker, search_query) pairs for the Google News per-ticker pull.
+
+    Strategy:
+    - Blue chips: use the curated `name` field from universe.yaml
+    - Candidates: use the FIRST EXTRA_ALIASES entry if available, else the ticker
+    """
+    from extract.resolver import EXTRA_ALIASES
+    pairs: list[tuple[str, str]] = []
+    for sec_rows in UNIVERSE.values():
+        for row in sec_rows:
+            t = row["ticker"]
+            name = row.get("name") or t
+            pairs.append((t, name))
+    seen = {t for t, _ in pairs}
+    for t in sorted(ALL_CANDIDATES - BLUE_CHIP_TICKERS):
+        if t in seen:
+            continue
+        aliases = EXTRA_ALIASES.get(t)
+        query = aliases[0] if aliases else t
+        pairs.append((t, query))
+    return pairs
 
 
 def _resolve_sector(ticker: str) -> str | None:
@@ -92,9 +117,22 @@ def collect_articles(hours_back: int = 168) -> list[Article]:
     pulled: list[Article] = []
     days_back = max(1, hours_back // 24)
 
-    # Finnhub skipped — free tier returns 403 for NSE. Re-enable when you
-    # upgrade to a paid Finnhub plan that includes India.
+    # Finnhub skipped — free tier returns 403 for NSE.
     print("[pipeline] Finnhub: skipped (NSE not covered on free tier)")
+
+    # 1b. Google News RSS — per-ticker pull. This replaces what Finnhub gave
+    #     us for the US version and ensures every ticker has dedicated
+    #     coverage across the Indian press: ET, Mint, BS, NDTV Profit,
+    #     Moneycontrol, CNBC-TV18, Business Today, Financial Express, BL, etc.
+    try:
+        gn_pairs = _build_search_queries()
+        gn_articles = gn.fetch_for_tickers(gn_pairs, sleep_between=0.4,
+                                            max_items_per_ticker=10)
+        pulled.extend(gn_articles)
+        print(f"[pipeline] Google News per-ticker: {len(gn_articles)} articles "
+              f"across {len(gn_pairs)} tickers")
+    except Exception as e:
+        print(f"[pipeline] Google News failed: {e}")
 
     # 2. Marketaux: discovery firehose (broad US news)
     try:

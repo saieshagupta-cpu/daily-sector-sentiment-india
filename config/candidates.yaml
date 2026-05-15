@@ -176,6 +176,37 @@ real_estate:
   - IRFC          # Indian Railway Finance Corp
   - HUDCO         # HUDCO
 
+defense:
+  # --- Defence electronics & systems ---
+  - PARAS         # Paras Defence and Space Technologies
+  - ZENTEC        # Zen Technologies — combat simulators
+  - DATAPATTNS    # Data Patterns India (also tech)
+  - DCXINDIA      # DCX Systems
+  - ASTRAMICRO    # Astra Microwave Products
+  - MTARTECH      # MTAR Technologies — precision manufacturing
+  - AZAD          # Azad Engineering — turbine components
+  - IDEAFORGE     # ideaForge — drones / UAV
+  - HBLPOWER      # HBL Power Systems (also tech)
+  # --- Defence engineering / shipbuilding adjacent ---
+  - WALCHANDIN    # Walchandnagar Industries
+  - TANEJAERO     # Taneja Aerospace and Aviation
+  - TEXMACO       # Texmaco Rail and Engineering
+  - TITAGARH      # Titagarh Rail Systems
+  - BHARATFORG    # Bharat Forge — defence + auto
+  - BHEL          # Bharat Heavy Electricals
+  # --- Aerospace / aviation components ---
+  - SANSERA       # Sansera Engineering — precision components
+  - KIRLOSENG     # Kirloskar Oil Engines
+  - KIRLOSIND     # Kirloskar Industries
+  - PRECAM        # Precision Camshafts
+  - THERMAX       # Thermax
+  - TIMKEN        # Timken India — bearings
+  - SCHAEFFLER    # Schaeffler India — bearings
+  - GRINDWELL     # Grindwell Norton — abrasives
+  # --- Ammunition / explosives ---
+  - PREMEXPLN     # Premier Explosives
+  - GOCLCORP      # GOCL Corporation — defence chemicals
+
 finance:
   - CHOLAFIN      # Cholamandalam Investment
   - MUTHOOTFIN    # Muthoot Finance

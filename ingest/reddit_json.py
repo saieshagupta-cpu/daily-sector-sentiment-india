@@ -39,6 +39,8 @@ SUBREDDITS: list[tuple[str, str | None]] = [
     ("personalfinanceindia",  None),
     ("IndiaFIRE",             None),
     ("IndianBanking",         "finance"),
+    ("IndianDefense",         "defense"),
+    ("DefenceOfIndia",        "defense"),
     ("Bogleheads",            None),
 ]
 

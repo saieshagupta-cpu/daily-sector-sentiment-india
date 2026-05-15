@@ -12,8 +12,9 @@ sentiment:
   novelty_threshold: 1.5            # today's mentions >= 1.5x 7-day avg
 
 source_weights:                     # how much each source's sentiment counts
-  finnhub: 1.0
+  finnhub: 1.0                      # (unused for India — free tier blocks NSE)
   marketaux: 1.0
+  gnews: 0.9                        # per-ticker Google News — main India workhorse
   gdelt: 0.7
   rss: 0.6
   stocktwits: 0.5

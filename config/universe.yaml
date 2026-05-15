@@ -62,6 +62,18 @@ real_estate:
   - {ticker: SUNTECK,     name: Sunteck Realty}
   - {ticker: MAHLIFE,     name: Mahindra Lifespace Developers}
 
+defense:
+  - {ticker: HAL,         name: Hindustan Aeronautics}
+  - {ticker: BEL,         name: Bharat Electronics}
+  - {ticker: BDL,         name: Bharat Dynamics}
+  - {ticker: MAZDOCK,     name: Mazagon Dock Shipbuilders}
+  - {ticker: COCHINSHIP,  name: Cochin Shipyard}
+  - {ticker: GRSE,        name: Garden Reach Shipbuilders}
+  - {ticker: BEML,        name: BEML}
+  - {ticker: MIDHANI,     name: Mishra Dhatu Nigam}
+  - {ticker: SOLARINDS,   name: Solar Industries India}
+  - {ticker: LT,          name: Larsen & Toubro}
+
 finance:
   - {ticker: HDFCBANK,    name: HDFC Bank}
   - {ticker: ICICIBANK,   name: ICICI Bank}
