@@ -50,6 +50,16 @@ SECTOR_QUERIES: dict[str, str] = {
         'OR Mazagon Dock OR Cochin Shipyard OR DRDO OR Tejas OR "missile order" '
         'OR drone OR shipyard OR submarine OR fighter)) sourcecountry:IN'
     ),
+    "utilities": (
+        '(India AND (electricity OR "power utility" OR "gas distribution" '
+        'OR transmission OR discom OR "city gas" OR renewable OR solar power '
+        'OR wind power OR NTPC OR Power Grid OR Adani Green)) sourcecountry:IN'
+    ),
+    "fmcg": (
+        '(India AND (FMCG OR HUL OR Hindustan Unilever OR ITC OR Nestle '
+        'OR Britannia OR Dabur OR Marico OR consumer staples OR personal care '
+        'OR rural demand OR retail consumption)) sourcecountry:IN'
+    ),
 }
 
 

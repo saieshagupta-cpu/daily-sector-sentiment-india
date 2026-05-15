@@ -176,6 +176,65 @@ real_estate:
   - IRFC          # Indian Railway Finance Corp
   - HUDCO         # HUDCO
 
+utilities:
+  - JSWENERGY     # JSW Energy (also energy)
+  - CESC          # CESC Limited — Kolkata electricity
+  - NLCINDIA      # NLC India — lignite + power
+  - MGL           # Mahanagar Gas (also energy)
+  - GUJGASLTD     # Gujarat Gas (also energy)
+  - GSPL          # Gujarat State Petronet (also energy)
+  - ATGL          # Adani Total Gas
+  - IRCTC         # Indian Railway Catering & Tourism Corp
+  - VATECHWABAG   # VA Tech Wabag — water treatment
+  - IEX           # Indian Energy Exchange (also energy)
+  - PFC           # Power Finance Corp (also finance/energy)
+  - RECLTD        # REC Limited (also finance/energy)
+  - PRAJIND       # Praj Industries — biofuels
+  - THERMAX       # Thermax (also defense)
+  - KEC           # KEC International — power infra
+  - KALPATPOWR    # Kalpataru Projects (also energy)
+  - SUZLON        # Suzlon (also energy)
+  - INOXWIND      # Inox Wind (also energy)
+  - WAAREE        # Waaree Renewable (also energy)
+  - KPIGREEN      # KPI Green Energy (also energy)
+  - IREDA         # Indian Renewable Energy Dev Agency (also energy)
+  - ACMESOLAR     # ACME Solar (also energy)
+  - PREMIERENE    # Premier Energies (also energy)
+  - HBLPOWER      # HBL Power Systems (also tech/defense)
+
+fmcg:
+  - EMAMILTD      # Emami
+  - BAJAJCON      # Bajaj Consumer Care
+  - JYOTHYLAB     # Jyothy Labs
+  - GILLETTE      # Gillette India
+  - GODREJIND     # Godrej Industries
+  - HONASA        # Honasa Consumer (Mamaearth)
+  - ZYDUSWELL     # Zydus Wellness
+  - PGHH          # Procter & Gamble Hygiene
+  - UNITDSPR      # United Spirits (McDowell)
+  - UBL           # United Breweries
+  - RADICO        # Radico Khaitan
+  - VBL           # Varun Beverages (also blue chip; in pool too)
+  - METROBRAND    # Metro Brands — footwear
+  - BATA          # Bata India
+  - RELAXO        # Relaxo Footwears
+  - VIPIND        # VIP Industries — luggage
+  - SAFARI        # Safari Industries — luggage
+  - PAGEIND       # Page Industries — innerwear
+  - TRENT         # Trent — retail
+  - DMART         # Avenue Supermarts
+  - ABFRL         # Aditya Birla Fashion
+  - WHIRLPOOL     # Whirlpool India — consumer durable
+  - HAVELLS       # Havells India — consumer electrical
+  - CROMPTON      # Crompton Greaves Consumer
+  - VGUARD        # V-Guard Industries
+  - ORIENTELEC    # Orient Electric
+  - TITAN         # Titan — jewellery + watches
+  - PIDILITIND    # Pidilite Industries — adhesives/consumer chemicals
+  - ASIANPAINT    # Asian Paints — paints
+  - BERGEPAINT    # Berger Paints
+  - KANSAINER     # Kansai Nerolac
+
 defense:
   # --- Defence electronics & systems ---
   - PARAS         # Paras Defence and Space Technologies

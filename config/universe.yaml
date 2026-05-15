@@ -62,6 +62,30 @@ real_estate:
   - {ticker: SUNTECK,     name: Sunteck Realty}
   - {ticker: MAHLIFE,     name: Mahindra Lifespace Developers}
 
+utilities:
+  - {ticker: POWERGRID,   name: Power Grid Corporation}
+  - {ticker: NTPC,        name: NTPC}
+  - {ticker: TATAPOWER,   name: Tata Power}
+  - {ticker: ADANIPOWER,  name: Adani Power}
+  - {ticker: ADANIENSOL,  name: Adani Energy Solutions}
+  - {ticker: NHPC,        name: NHPC}
+  - {ticker: SJVN,        name: SJVN}
+  - {ticker: TORNTPOWER,  name: Torrent Power}
+  - {ticker: GAIL,        name: GAIL India}
+  - {ticker: IGL,         name: Indraprastha Gas}
+
+fmcg:
+  - {ticker: HINDUNILVR,  name: Hindustan Unilever}
+  - {ticker: ITC,         name: ITC}
+  - {ticker: NESTLEIND,   name: Nestle India}
+  - {ticker: BRITANNIA,   name: Britannia Industries}
+  - {ticker: DABUR,       name: Dabur India}
+  - {ticker: COLPAL,      name: Colgate-Palmolive India}
+  - {ticker: GODREJCP,    name: Godrej Consumer Products}
+  - {ticker: MARICO,      name: Marico}
+  - {ticker: VBL,         name: Varun Beverages}
+  - {ticker: TATACONSUM,  name: Tata Consumer Products}
+
 defense:
   - {ticker: HAL,         name: Hindustan Aeronautics}
   - {ticker: BEL,         name: Bharat Electronics}
