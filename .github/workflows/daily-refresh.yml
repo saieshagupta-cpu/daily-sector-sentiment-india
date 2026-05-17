@@ -61,7 +61,8 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f store/amaltash.db extract/us_universe.json
+          # India resolver builds its universe from yaml configs; no us_universe.json.
+          git add -f store/amaltash.db
           if git diff --staged --quiet; then
             echo "Nothing changed in tracked artefacts — skipping commit."
           else
