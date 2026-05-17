@@ -6,9 +6,9 @@ name: Daily refresh
 
 on:
   schedule:
-    # 02:30 UTC daily = 08:00 IST — pre-NSE-open (NSE opens 09:15 IST).
+    # 03:30 UTC daily = 09:00 IST (NSE opens 09:15 IST).
     # GitHub cron is best-effort, can lag up to ~15 min at peak times.
-    - cron: '30 2 * * *'
+    - cron: '30 3 * * *'
   workflow_dispatch:        # let you trigger manually from the Actions tab
 
 permissions:
