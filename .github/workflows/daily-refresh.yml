@@ -7,8 +7,11 @@ name: Daily refresh
 on:
   schedule:
     # 03:30 UTC daily = 09:00 IST (NSE opens 09:15 IST).
-    # GitHub cron is best-effort, can lag up to ~15 min at peak times.
-    - cron: '30 3 * * *'
+    # GitHub cron is best-effort and silently skips runs during high load.
+    # We schedule a 1-hour retry; the commit step is idempotent (skips if the
+    # DB content is unchanged), so the retry is a no-op when the first succeeds.
+    - cron: '30 3 * * *'   # primary  — 09:00 IST
+    - cron: '30 4 * * *'   # retry    — 10:00 IST
   workflow_dispatch:        # let you trigger manually from the Actions tab
 
 permissions:
